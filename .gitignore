@@ -1,0 +1,10 @@
+**/.secrets
+**/.backend-config
+
+**/.terraform/*
+**/*.tfplan*
+**/terraform.t*
+**/terraform.*
+
+
+**/.DS_Store
