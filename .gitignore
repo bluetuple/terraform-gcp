@@ -1,6 +1,6 @@
 **/.secrets
 **/.backend-config
-
+**/.terraform.lock.hcl
 **/.terraform/*
 **/*.tfplan*
 **/terraform.t*
