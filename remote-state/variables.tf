@@ -1,5 +1,5 @@
-# all vaiable definitons will go here
-# in other files referneced as var.<variablename>
+# Vaiable definitons will go here
+# In other files referneced as var.<variablename>
 
 variable "region" {
   type        = string
