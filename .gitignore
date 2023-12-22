@@ -3,8 +3,5 @@
 .terraform.lock.hcl
 **/.terraform/*
 **/*.tfplan*
-**/terraform.t*
-**/terraform.*
-
 
 **/.DS_Store
