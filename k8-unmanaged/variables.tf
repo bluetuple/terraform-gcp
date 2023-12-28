@@ -50,3 +50,12 @@ variable "my_ip" {
 
 }
 
+variable k8_router {
+  type = string
+  description = "Name of the router for ext conn"
+}
+
+variable k8_router_nat {
+  type = string
+  description = "Name on NAT router"
+}

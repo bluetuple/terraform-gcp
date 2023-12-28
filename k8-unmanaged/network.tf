@@ -20,14 +20,14 @@ resource "google_compute_subnetwork" "sn-nodes" {
 
 
 # initializing cloud nat
-resource "google_compute_router" "bt_router" {
-  name    = "sbx-dev-k8-router"
+resource "google_compute_router" "k8_router" {
+  name    = var.k8_router
   region  = var.region
   network = google_compute_network.vpc.id
 }
 
-resource "google_compute_router_nat" "bt_router_nat" {
-  name                               = "sbx-dev-k8-router-nat"
+resource "google_compute_router_nat" "router_nat" {
+  name                               = var.k8._router_nat"
   router                             = google_compute_router.bt_router.name
   region                             = var.region
   nat_ip_allocate_option             = "AUTO_ONLY"
